@@ -1,1 +1,40 @@
+COURSE SYLLABUS
 
+Module 1
+
+In the first module, you will start with an introduction to the course and gain insight into the roles you may follow as a mobile developer. You'll also receive tips on how to take this course successfully. Then, you will learn the basics of setting up the Xcode Integrated Development Environment (IDE) to get you ready for the rest of the course. Best of all, you'll be introduced to iOS mobile app development! Aside from learning the basics of mobile operating systems (OS) and platforms, you will explore Xcode and supported languages, like Objective-C and Swift, as well as unpack the structure of an iOS app.
+
+After completing this module, you will be able to:
+
+Describe mobile apps and their benefits from the perspective of a mobile developer 
+Discuss the iOS Operating System (OS) including its development and supported programming languages, Objective-C and Swift
+Describe key features of the Xcode Integrated Development Environment (IDE) 
+Demonstrate how to launch an iOS app and describe its components 
+Module 2
+
+In module 2, you will focus on simulation and development in the Xcode IDE. You will learn all about simulators, including setting up simulator software, OS images and starting a simulator, which you will use to run and test your own app later in the course. Then, you'll focus on iOS code and project structure. You will discover the structure of iOS project in Xcode, and explore the files and folders that make up the project, including the App Delegate file, View Controller and Resource folder. You will then cover the role of Xcode's build system in creating an app and the info.plist folder in specifying app configurations.
+
+After completing this module, you will be able to.
+
+Describe simulators and iOS OS images and their role in iOS app development 
+Demonstrate how to set up and create a simulator in Xcode
+Discuss the Xcode build system and how it's used to create iOS projects
+Discuss the Main.Swift code and info.plist file in relation to iOS app development  
+Outline the folder structure of an iOS project in Xcode and discuss the purpose and contents of related folders and files, including the Resources and Project folders
+Module 3
+
+The last module will prepare you for building your very own app project. You will begin with an introduction to project planning and using Xcode project templates to develop apps more efficiently. You'll explore the components required to create the video player, such as the AVPlayer used to play media assets and the built-in bundle.main.path function to locate the assets added. You'll also have everything you need to know about creating the app's User Interface or UI and how to display variables in Swift. 
+
+Finally, you will recap what you've learned and have the opportunity to put what you learned into practice by creating a video player app. 
+
+You'll then complete a graded assessment, followed by the opportunity to reflect on the course content and the learning path that lies ahead.
+
+After completing this module, you will be able to:
+
+Discuss the role of project planning and templates in Xcode for development
+Describe UIViews and how to use them to structure the UI of iOS apps 
+Discuss additional imports needed for the video player app
+Demonstrate how to use the Bundle.main.path to locate video files and how to declare and display variable
+Demonstrate the functional code and create and launch the video player project using the AVPlayer class 
+
+Note:  Xcode is a product of Apple's used to develop software utilizing the coding language Swift 
