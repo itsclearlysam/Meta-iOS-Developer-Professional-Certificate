@@ -1,1 +1,143 @@
+iOS languages: Objective-C vs Swift
+
+
+(OBJECTIVE-C:)
+objective C was originally developed by brad cox and Tom Love in the early 19 eighties. 
+For a long time, IOS developers used objective C to develop IOS apps because it was the only supported language. 
+
+
+
+(SWIFT:)
+IOS eventually needed a more modern language to complement the features of objective C. PEFERRED LANGUAGE BY APPLE FOR CREATING APPS.
+This need inspired the development of Swift. Swift is a general purpose multi paradigm that was introduced by Apple in 2014 and is now a supported language in X code, 
+the development environment for Apple's operating system multi paradigm means Swift supports multiple programming paradigms, for example, object oriented programming as well as functional programming.
+In fact, since it was announced as the official language for IOS, Swift has become the preferred language for building IOS apps. 
+
+1. SWIFT IS FAST
+2. 3 TIMES FASTER THAN OBJECTIVE-C 
+3. SCALABILITY, EASIL MODIFTY SWIFT CODE/ MORE SUPPORT FOR SWIFT
+4. SAFER TO USE
+5. STRONG TYPNG SYSTEM AND ERROR HANDLING. 
+
+------------------------------------------------------------------------
+The iOS OS
+
+iOS is one of the most used operating systems across the world. 
+In recent years, it has been powering billions of devices. 
+This OS has now become a complete set of operating systems for various devices such as wearables, mobiles, smart TVs, tablets and so on.
+
+
+
+What is iOS?
+
+iOS is an operating system primarily designed for touch screen mobile devices such as smartphones. 
+The operating system has evolved in recent years from a mobile OS to an operating system running on other devices such as wearables and smart TVs.
+It is the basis for three other operating systems made by Apple: iPadOS, tvOS, and watchOS.
+
+.................................
+
+Below are features and characteristics of the iOS, such as
+
+1. It's more secure than other operating systems.
+2. iOS provides multitasking features. For example, while working in one application you can easily switch to another one.
+3. iOS’s user interface includes multiple gestures like swipe, tap, pinch and reverse pinch.
+4. iBooks, iStore, iTunes, Game Center, and Email are all user-friendly.
+5. It supplies Safari as the default web browser.
+6. It has a powerful API and camera.
+7. It has deep hardware and software integration.
+
+
+.................................
+The iOS architecture
+
+The Apple architecture is comprised of different components that any iOS device would need to effectively function. 
+iOS software is built on top of Unix, a multitasking operating system and many other C/C++ libraries exposed via application framework services.
+
+
+Among all the components, Unix provides the main operating system functions for smartphones.
+An iOS is a stack of software components roughly divided into five sections.
+
+1. Core Bluetooth framework: 
+The core Bluetooth framework provides the functions needed for your apps to communicate with Bluetooth devices.
+
+2. External accessories framework: 
+It’s used to communicate with accessories that connect to a device with Bluetooth wireless technology.
+
+3. Accelerate framework: 
+Accelerate performs optimized large-scale mathematical computations and image calculations so you can write apps that leverage machine learning, data compression and signal processing.
+
+4. Security services framework: 
+This can be used to protect information, establish trust and control access to software.
+
+5. Local authorization framework: 
+This is used to authenticate a user via Touch ID or Face ID within an app.
+      
+
+
+---------------------------------------------------------
+
+XCODE PROJECT TEMPLATES
+
+-The industry standard way of developing any application is to use an (IDE), Integrated Development Environment,
+which is capable of supplying all the tools and features needed to speed up development. 
+-These programming environments also supply a codebase or starter code for several types of app development, 
+which can also give a sneak peek at what the language has to offer. 
+-Xcode, an IDE used for developing applications for Apple devices, 
+provides starter code for various basic implementations of the iOS platform. 
+
+
+EXAMPLE TEMPLATES  ON XCODE IDE:
+
+-the app template:  The app template allows you to create a basic app project for various platforms, such as iOS and watchOS. 
+
+-the game template: the game template, you can create games in less time using Apple's game software development kit, or SDK, such as SpriteKit or Metal. 
+
+-the sticker: The sticker in iMessage apps aren't apps as such. They are more like plugins that can be used within existing apps.
+It's more efficient to use these apps because they usually come with special and helpful configurations. 
+
+
+others:
+
+Framework, Metal Library, and more.
+
+-------------------------------------------------
+
+
+BENEFITS OF TEMPLATES:
+
+- clear understanding of the project structure. 
+- structure that meets the best practices recommended by the operating system or OS manufacturer. 
+- gives you a preview of what the platform has to offer.
+- get insight into how things work behind the scenes before investing your time in learning how to build apps for that platform.
+-  allow you to build quickly. You can start building apps in minutes by using inbuilt project templates.
+
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
