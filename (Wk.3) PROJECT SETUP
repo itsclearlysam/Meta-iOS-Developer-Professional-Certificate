@@ -123,7 +123,11 @@ The AVPlayerViewController is the UI to control the video. Specifically, it is a
 
 
 
+Setting up the screen
 
+VIEWS:
+make up app user interface (UI) 
+Text, images and buttons are all views in iOS. 
 
 
 
