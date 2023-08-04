@@ -186,7 +186,17 @@ This delegate allows you to register for any required services at launch time, s
 
 
 
-3. UserDefaults
+3. UserDefaults:
+An interface to the user's defaults database, where you store key-value pairs persistently across launches of your app.
+The UserDefaults class provides a programmatic interface for interacting with the defaults system.
+The defaults system allows an app to customize its behavior to match a user’s preferences. 
+For example, you can allow users to specify their preferred units of measurement or media playback speed. 
+Apps store these preferences by assigning values to a set of parameters in a user’s defaults database. 
+The parameters are referred to as defaults because they’re commonly used to determine an app’s default state at startup or the way it acts by default.
+At runtime, you use UserDefaults objects to read the defaults that your app uses from a user’s defaults database. 
+UserDefaults caches the information to avoid having to open the user’s defaults database each time you need a default value. 
+When you set a default value, it’s changed synchronously within your process, and asynchronously to persistent storage and other processes.
+
 
 
 
@@ -198,7 +208,7 @@ A ViewController is a container on which the content views are drawn to create a
 
 
 5. UIDocument:
-Create abd manage documents and content. 
+Create and manage documents and content. 
 The iOS UIDocument class is designed to provide an easy to use interface to create and manage documents and content. 
 While UIDocument is used for handling local file systems, such as a read and write operation of data in the app background, 
 it's purpose is primarily to ease the process of storing files using iCloud. 
