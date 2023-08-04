@@ -1,1 +1,57 @@
+Basic project planning
+
+Project planning is one of the most critical stages of software development. 
+It is an important part of commencing any new project. 
+That's because it serves as a roadmap that shows the phases of the project, as well as their start and end dates, and dependencies.
+By the end of this reading, you should recognize the importance of project planning. 
+
+
+-----------------------------------------------------------------------------------------------
+
+1. Project performance and success rates:
+Project planning involves comprehensive mapping and organization of project goals, tasks,
+schedules and resources before anyone assigns project roles and the team starts implementing the plan. 
+With proper planning in place, you can boost the project performance and success rates of a team.
+
+2. Clear objectives:
+Having a clear idea of what needs to be achieved greatly increases the likelihood that you will do it. 
+But, without a concise objective from the start, the project will be complicated. 
+If the team isn't clear on what they are working on, it’s almost impossible to know when the project is completed.
+Proper planning helps the team focus on the most important things: the objectives and the end goal.
+
+3. Resource allocation:
+Planning out a project will tell you how many team members you need to execute the project. 
+The plan also allows project managers to monitor which resources have been allocated and thus avoid excessive allocation.
+
+4. Communication:
+Planning helps communication. With good communication, every team member knows exactly what is required of them ahead of time. 
+A well-written plan will help you communicate key details, making it seamless for you and your entire team to complete specific tasks. 
+Listening to their input and ideas is also a great way to achieve buy-in and foster the commitment of every team member.
+
+5. Project-specific training:
+Project planning ensures team members have the required technical know-how to execute the assigned tasks 
+and identifies talent pipelines to provide an adequate supply of trained talents throughout the lifecycle of the project.
+
+-----------------------------------------------------------------------------------------------
+
+
+Requirements gathering
+
+Project planning starts with getting a clear picture of what the project or in this case, the app is going to do. 
+A clear idea allows you to break the app down into principal components of functionality, which is also known as requirements gathering. 
+Whether the app is for you or client requirements gathering is a critical step that must happen during project planning.
+CLEAR PLANNED APPROACH
+
+
+WHAT DO YOU WANT THE APP TO DO?
+
+QUESTION EXAMPLES
+
+-are you going to build the video player yourself?
+-will it be a video selection app that sends the user to another app to play a video? 
+-Will the app store videos on the device, and in what format or will they be streamed? 
+-How will you control the video tracks questions like these? 
+-are you oing to build the app yourself?
+
+
 
