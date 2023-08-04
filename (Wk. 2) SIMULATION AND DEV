@@ -1,1 +1,32 @@
+SIMULATORS
 
+
+What is a Simulator?
+
+A simulator is a computer program that's designed to simulate another kind of device.
+Replicating the experience of the original hardware or software by mimicking the behavior of mobile devices. 
+Simulators allow you to test how your apps will run on the devices you've designed them for without having to install them on the actual physical devices. 
+Simulators do, however, require high computing resources in most cases. 
+This means that if you are going to use a simulator on your machine,
+it's important to make sure there's enough storage space and random access memory or RAM available for it to run effectively. 
+
+-----------------------------------------------------------------------------------------------------------------
+Several commercial and open source simulators available for most of the operating systems in the market:
+
+1. BlueStacks: 
+allow you to run android apps on operating systems like Mac and Windows.
+
+2. Appetize.io:
+ a browser-based emulator that allows you to use iOS applications on any PC.
+
+3.  Wine:
+run Windows applications on the Linux OS.
+
+4. Nestopia:
+nestopia allow you to play Nintendo games on Linux. 
+
+5. SNES Classic console simulators:
+standalone, allow gamers to play old video games on modern HD televisions. 
+
+6. PlayStation portable simulators:
+allow users to play games made for other consoles on Sony's mobile system. 
