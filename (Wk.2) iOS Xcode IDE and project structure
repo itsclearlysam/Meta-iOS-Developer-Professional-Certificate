@@ -1,0 +1,166 @@
+Project structure
+
+When you develop an app, it's important that it is well structured using project folders.
+These folders hold the different pieces of the entire project together. 
+In this video, you'll learn more about these folders, specifically the folder structure of an IOS project. 
+An X code project is a repository for all the files, resources and information necessary for an app to build and run successfully. 
+The project contains all the elements used to create products and maintain relationships between these elements. 
+It contains one or more targets which specify how to build products whenever you start a new IOS project in X code, 
+it will automatically generate many files and folders for you by default.
+These files and folders contain everything that is required for an app to run from source code and assets to test code and build configurations. 
+
+--------------------------------------------------------------------------------------------------------------------------
+
+1. SOURCE CODE
+2. ASSETS
+3. TEST CODE
+4. BUILD CONFIGURATIONS
+
+
+
+1. SAMPLE APP (ROOT DIRECTORY)
+ The root directory is the root for all other folders and files
+
+2.. HELLO WORLD FOLDER: 
+This folder contains source code related to the project here. You write business logic code, create user interface or uI and store assets such as images and fonts. 
+The Hello World Tests folder contains all the configurations and test files used by X code to run business logic tests on your project. 
+The Hello World UI Tests folder contains all the configurations and test files used by X code to run UI interaction tests on your project. 
+
+3.PRODUCTS FOLDER: 
+This folder contains a generated app build ready for deployment to a device or the app. 
+
+--------------------------------------------------------------------------------------------------------------------------
+Project main class
+
+
+One of the most fundamental parts of an iOS app is the app delegate class.
+A class is a blueprint that defines the variables and the functions common to all objects of a certain kind.
+Your app will have at least one swift class, no matter how small it is in terms of code and scalability. 
+In fact, when you create your app in x code, the AppDelegate class is generated alongside other folders and files. 
+
+
+
+
+
+VIEW CONTROLLER CLASS:
+
+In iOS, a view controller class, which is one thing a user can do is an entry point for interacting with the user. 
+This is where the action happens because view controller allows the user to interact with your app. 
+iOS app is usually made of multiple ViewControllers, sometimes called screens, that together form the user experience. 
+These activities are represented by a ViewController class whose function is to respond to user input. 
+Each ViewController class is connected to a storyboard that holds different pieces of a user interface or UI together so that a user can interact with an app. 
+This means that the ViewController class is the gateway through which a user can interact dynamically with an iOS apps UI. 
+One class in an app will be specified as the main class. This is the entry point from which iOS will run its program as it's the first screen that appears when a user launches an app.
+
+
+
+
+**When you create a new iOS project using the app template in X code, a file called AppDelegate.swift 
+is generated with some initial code alongside other generated files and folders. **
+
+
+WHEN CREATING AN iOS APP, WHAT IS THE PURPOSE OF THE VIEWCONTROLLER?
+IT ALLOWS THE USER TO INTERACT WITH THEIR APP. THE VIEWCONTROLLER CLASS IS THE GATEWAY THROUHH WHICH A USER CAN INTERACT DYNAMICALLY WITH AN iOS APP'S UI. 
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Xcode Build System
+
+
+With the build system, the iOS project is managed through a set of build configuration files. 
+This includes defining how a project is to be developed, what dependencies need to exist for the project to build and run successfully, 
+and what the results or results of the compilation process should be. To start using the build system in your app project, 
+you don't need to install anything as it comes with Xcode by default. When you click the Run button on the Xcode toolbar, 
+this action automatically triggers the build system activity, which in turn starts building the project. After a successful operation, 
+your app starts running on a simulator or a physical device connected to the computer. 
+
+1. RUN BUTTON
+2. BUILD SYSTE, ACTIVITY
+3. PROJECT BULDING
+4. APP RUNS
+--------------------------------------------------------------------------------------------------------------------------
+2 BUILD SYSTEMS: 
+
+The legacy and new build systems. 
+
+
+THE LEGACY:
+Legacy is Apple's first build system. It was initially developed to help developers build, run and deploy their apps to the app store. 
+The legacy build system will be removed in a future release. 
+
+
+NEW BUILD SYSTEM:
+To improve the developer experience, Apple released another version of the build system called the new build system. 
+It provides improved reliability and build performance, and it catches project configuration problems that the legacy build system does not.
+
+
+--------------------------------------------------------------------------------------------------------------------------
+The architecture section helps you to have control over which type of device architecture your app should support. 
+(iOS VERSIONS, DEVICES ETC) 
+
+
+
+In which one of the following sections in the  Xcode build settings can you specify the devices your app must support?
+
+ANSWER: Deployment 
+The Deployment section describes the targeted device family, meaning you can specify which devices your app supports
+
+--------------------------------------------------------------------------------------------------------------------------
+iOS info.plist
+
+
+To provide a better experience for users, iOS and Mac OS rely on the presence of special metadata in each app or bundle. 
+
+
+iOS AND MACOS APP METADATA
+
+- KEEP YOUR CONFIGURATIONS ORGANIZED
+- PROVIDE APP METADATA TO THE SYSTEM
+
+INFO file is where you can store information about your app and configure a number of things. 
+It has a key and a value, as well as a type. 
+The keys and values in the file describe the various behaviors and configuration options you want applied to your app bundle. 
+The type refers to the type of value you are storing
+
+
+EXAMPLE:
+
+For example, imagine that you need to use a camera in your application. 
+You will need to specify a privacy setting within the info.plist file in order to notify the app that it must request permission from the user before the camera launches. 
+To do this, you can right-click on the black portion of the screen and click ''Add Row''. 
+A long list with different configurations that you can specify within the info.plist file is displayed. 
+For example, imagine that you need to use a camera in your application. If I choose privacy, there are many privacy options. 
+Let's select Privacy-Camera Usage Description. As mentioned earlier, this implies that at the point of running your app, 
+the camera will not function until the app has requested whether the user wants to access the device. The same applies to using contacts in your application. 
+If your app wants to pull the contact list from the user's device, you need the user's permission before you can access their contacts. 
+You can configure these privacy settings in the info.plist file with the privacy contacts usage description configuration. 
+It is a general rule or standard to specify various privacy settings when it comes to building iOS applications. 
+If you don't specify these things in the info.plist folder, your app will be flagged by Apple and then rejected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
