@@ -140,6 +140,54 @@ It is a general rule or standard to specify various privacy settings when it com
 If you don't specify these things in the info.plist folder, your app will be flagged by Apple and then rejected.
 
 
+--------------------------------------------------------------------------------------------------------------------------
+
+Project files
+
+Learning objective: Identify useful files and directories you can access with Project View. 
+To access the entire file structure of a project including all files hidden within folders from the XCode view, 
+select Project from the tab at the top of the Project window.
+
+
+
+
+Choosing Project View allows you to see a lot more files and directories. The most important of these are:
+
+module-name/
+
+1. AppDelegate
+The app delegate is effectively the root object of your app, and it works in collaboration with UIApplication to manage some user interactions with the system.
+
+2. SceneDelegate
+What is displayed on the screen is the responsibility of SceneDelegate.
+
+3. ViewController
+The View Controller is the parent of all the views present on a storyboard. Each application has at least one ViewController. 
+It facilitates the transition between various parts of the user interface.
+
+4. Main
+With the Main.storyboard file you can lay out and design the user interface of your application by adding views such as buttons, 
+table views, and text views onto the editor.
+
+5. Assets
+This can be used to organize your app's images, icons, colors, and more
+
+6. LaunchScreen
+Launch screens appear when your app starts up and give the user the impression that your app is fast and responsive.
+
+7. Info.plist
+Xcode supplies an information property list file when you create a project from a template, as described in "create a project." 
+By default, Xcode names this file Info.plist and adds it to your project as a source file that you can edit.
+
+8. module-nameTests/
+This folder is responsible for managing code required to test functions within the application.
+
+9. module-nameUITests/
+This folder keeps test files required for testing user interactions with the app user interface.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
 
 
 
