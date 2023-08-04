@@ -163,13 +163,45 @@ By default, all Views detect clicks and long clicks. Users can tap and interact 
 
 
 
+--------------------------------------------------
+
+Anatomy of an iOS App
+
+MADE UP OF 4 MAJOR COMPONENTS:
+
+1. UIApplication: 
+iOS application starting point and is responsible for initializing and displaying your applications window.
+It is also responsible for loading your applications first view into the window. Every iOS app project comes with a UIApplication component. 
+During app launch, once the initial setup such as locating and loading app binary code and linking necessary frameworks is completed, 
+the system must call into the binary code to start it running. Every iOS app has only one instance of UIApplication, and without this component, 
+it's impossible for an iOS app to run successfully
+
+
+2. UIApplicationDelegate:
+The UIApplicationDelegate is a set of methods to maintain the overall shared behavior of your app.
+This delegate can be referred to as the root of an app. It works in conjunction with the UIApplication to manage every communication with the operating system. 
+Imagine you need to configure your app to receive notifications. 
+This delegate allows you to register for any required services at launch time, such as Apple Push Notification Service. 
 
 
 
 
+3. UserDefaults
 
 
 
+4. ViewController: 
+The UIViewController is the basic building block of your iOS app. 
+This component oversees the activities that happen on screen, from user interfaces to animation, from interaction to navigation, and more. 
+In simple terms, the UIViewController defines the shared behavior and properties for all types of ViewController that are used in the iOS application.
+A ViewController is a container on which the content views are drawn to create an iOS app.
+
+
+5. UIDocument:
+Create abd manage documents and content. 
+The iOS UIDocument class is designed to provide an easy to use interface to create and manage documents and content. 
+While UIDocument is used for handling local file systems, such as a read and write operation of data in the app background, 
+it's purpose is primarily to ease the process of storing files using iCloud. 
 
 
 
