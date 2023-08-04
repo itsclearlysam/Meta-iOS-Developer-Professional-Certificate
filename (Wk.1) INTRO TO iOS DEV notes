@@ -156,7 +156,9 @@ Xcode project files belong to one of three main categories: configuration, code,
 Configuration files define the project structure, code files provide the logic, and resource files are pretty much everything else.
 
 
-
+....................
+7. Clicks/long clicks:
+By default, all Views detect clicks and long clicks. Users can tap and interact with them.
 
 
 
