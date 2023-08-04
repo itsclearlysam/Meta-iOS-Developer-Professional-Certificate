@@ -1,0 +1,52 @@
+QUIZ 1 
+
+
+.................................
+1. True or False: A mobile website is optimized for all devices that you may use when travelling.
+
+ANSWER: False
+A mobile website is optimized specificallv for smartphones and tablets
+
+.................................
+2. Which is true about mobile apps when compared to mobile websites?
+
+ANSWER: Mobile apps are more difficult to maintain.
+Mobile apps are more difficult to maintain
+
+.................................
+3. Which is the fastest programming language?
+
+ANSWER: Swift
+Swift is the fastest programming language of the three.
+
+.................................
+4. True or False: Swift is a weakly typed language.
+
+ANSWER: False
+Swift is a strongly typed language.
+
+.................................
+5. Which is true about Swift?
+
+ANSWER: Swift supports multiple programming paradigms.
+Swift supports object-oriented as well as functional programming.
+
+.................................
+6. True or raise: ccupse is the standara integrated Development Environment De) tor developing
+applications for Apple devices.
+
+ANSWER: False
+Xcode is the standard IDE for developing applications for Apple devices 1/1 point
+
+.................................
+7. What are standard app templates in Xcode for iOS development?
+Select all that apply.
+
+ANSWER: App,iMessage app
+Correct! This a standard template in Xcode.
+
+.................................
+8. Which of the following are components that serve as building blocks of any iOS app? Select all that apply.
+
+ANSWER: viewController, UlApplicationDelegate, UlApplication
+These are some of the building blocks of any iOS app.
