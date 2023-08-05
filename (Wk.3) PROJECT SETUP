@@ -202,10 +202,22 @@ This function identifies a resource either by location, name, or both.
 
 
 
+import statement:
+// import AVKit
+import UIKit
+import AVFoundation 
 
 
 
+iOS UIView
+
+The main building block for the user interface (UI) of an app is a View object that is created from the View class. 
+The View object occupies a rectangular screen area - like the one highlighted below -  and is responsible for the processing of drawings and events.
+The UIView is the base class for widgets that are used to create interactive components of the UI such as buttons and text fields.
 
 
+So, simply put, UIView can be considered a rectangle on the screen that displays a certain type of content. 
+This can be a label, a text, an image, or anything that an iOS app can display. 
+In an actual sense, a view occupies a rectangular shape on any mobile device screen.
 
 
